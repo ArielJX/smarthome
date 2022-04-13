@@ -1,0 +1,99 @@
+html,
+body,
+h1, h2, h3,
+a, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: black;
+  font-size: medium;
+}
+
+html,
+body {
+  background-color: #1E243F;
+  min-width: 380px;
+}
+
+main, .container-fluid, footer > div {
+  padding: auto 2em;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0;
+}
+
+a, .nav-link, h3 {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover, a :focus, .nav-link:hover, .nav-link :focus, h3:hover, h3 :focus {
+  color: blanchedalmond;
+}
+
+i {
+  font-size: 25px;
+}
+
+main {
+  padding-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.bg-img {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.mobile {
+  margin-bottom: 2vh;
+  display: none;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+}
+
+.large-screen {
+  height: 30vh !important;
+  margin-bottom: 2vh;
+}
+
+.remote {
+  height: 15vh;
+}
+
+.half-screen {
+  height: 25vh !important;
+  margin-bottom: 5vh;
+}
+
+.full-screen {
+  height: 65vh !important;
+  margin-bottom: 5vh;
+}
+/*# sourceMappingURL=variable.css.map */
