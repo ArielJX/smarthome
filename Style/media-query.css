@@ -17,6 +17,9 @@
     -webkit-box-flex: 2;
         -ms-flex: 2;
             flex: 2;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .large-screen {
     height: 50vh !important;
@@ -60,9 +63,23 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 750px) {
+  footer {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 520px) {
   .nav-right > .nav {
     display: none;
+  }
+  .nav-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav-left .img-fluid {
+    max-height: 50px;
   }
   .mobile {
     display: -webkit-box;

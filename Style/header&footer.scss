@@ -1,14 +1,24 @@
 nav, footer{
   width: 100%;
   background-color: #1E243F;
+  
+
 }
 
 footer {
   height: 23vh;
   min-height: 30px;
   max-height: 60px;
+  position: absolute;
+  bottom: 0px;
 }
 
+.nav-left {
+  display: flex;
+  & .img-fluid {
+    max-height: 80px;
+  }
+}
 .nav-right {
   display: flex;
 }

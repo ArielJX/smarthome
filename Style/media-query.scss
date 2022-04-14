@@ -7,7 +7,8 @@
     flex: 2;
   }
   .g-container {
-    flex: 2
+    flex: 2;
+    justify-content: space-between;
   }
   .large-screen {
     height: 50vh !important;
@@ -36,11 +37,24 @@
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 750px) {
+  footer {
+      position: relative;
+  }
+}
+
+@media only screen and (max-width: 520px) {
   .nav-right>.nav {
   display: none;
   }
   
+  .nav-left {
+    display: flex;
+    & .img-fluid {
+      max-height: 50px;
+    }
+  }
+
   .mobile {
     display: flex;
   }
