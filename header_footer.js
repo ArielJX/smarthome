@@ -6,7 +6,30 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-    
+    <nav class="navbar sticky-top border">
+    <div class="container-fluid container">
+      <div class="nav-left"><a href="./index.html"><img class="img-fluid" src="./Style/Img/logo.png" alt="Logo">
+        </a></div>
+      <div class="nav-right">
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link active" href="./index.html">Rooms</a></li>
+          <li class="nav-item"><a class="nav-link active" href="./environment.html">Environment</a></li>
+        </ul>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+            aria-expanded="false">Setting</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./index.html">Cameras</a></li>
+            <li><a class="dropdown-item" href="./environment.html">Security</a></li>
+            <li><a class="dropdown-item" href="./environment.html">Messenge</a></li>
+            <li><a class="dropdown-item" href="./environment.html">Call</a></li>
+            <li><a class="dropdown-item" href="./environment.html">Lighting</a></li>
+            <li><a class="dropdown-item" href="./environment.html">Volunm</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
     `;
   }
 }

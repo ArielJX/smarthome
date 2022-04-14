@@ -71,6 +71,9 @@ main {
 
 .remote {
   height: 15vh;
+  & :hover {
+    cursor: pointer;
+  }
 }
 
 .half-screen {

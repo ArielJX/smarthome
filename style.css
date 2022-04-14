@@ -68,6 +68,10 @@ main {
           align-items: flex-end;
 }
 
+.bg-img :hover {
+  cursor: pointer;
+}
+
 .mobile {
   margin-bottom: 2vh;
   display: none;
@@ -85,6 +89,10 @@ main {
 
 .remote {
   height: 15vh;
+}
+
+.remote :hover {
+  cursor: pointer;
 }
 
 .half-screen {
@@ -269,6 +277,10 @@ footer > div {
   margin: 1em;
 }
 
+.grid-cell :hover {
+  cursor: pointer;
+}
+
 .grid-cell p {
   font-size: 12px;
 }
@@ -283,6 +295,10 @@ footer > div {
 
 .grid3 {
   padding: 1em;
+}
+
+.grid3 :hover {
+  cursor: pointer;
 }
 
 /********  media query  ************/

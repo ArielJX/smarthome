@@ -74,6 +74,9 @@ flex-direction: row;
   flex: 1;
   flex-wrap: wrap;
   margin: 1em;
+  & :hover {
+    cursor: pointer;
+  }
   & p {
     font-size: 12px;
       & strong {
@@ -87,6 +90,9 @@ flex-direction: row;
 
 .grid3 {
   padding: 1em;
+  & :hover {
+    cursor: pointer;
+  }
 }
 
 /********  media query  ************/

@@ -86,6 +86,10 @@ main {
   height: 15vh;
 }
 
+.remote :hover {
+  cursor: pointer;
+}
+
 .half-screen {
   height: 25vh !important;
   margin-bottom: 5vh;
